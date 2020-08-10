@@ -21,7 +21,7 @@ class MainWindow(QWidget):
         self.setFixedWidth(650)
         self.setFixedHeight(600)
         self.setFont(Font)
-        self.setWindowIcon(QIcon("D:\\AlgoTrading\\passwords_icon.png"))
+        self.setWindowIcon(QIcon("passwords_icon.png"))
     
 
     def user_interface(self):
@@ -32,7 +32,7 @@ class MainWindow(QWidget):
         header_style.setStyleSheet("background-color: black; font-size: 18px;")
 
         saved_passwords_button = QPushButton(self)
-        saved_passwords_button.setIcon(QIcon("D:\\AlgoTrading\\passwords_icon.png"))
+        saved_passwords_button.setIcon(QIcon("passwords_icon.png"))
         saved_passwords_button.move(600, 40)
         saved_passwords_button.setIconSize(QSize(32,32))
         saved_passwords_button.setStyleSheet("background-color: #f0f0f0; border: 0px medium;")
@@ -93,7 +93,7 @@ class MainWindow(QWidget):
                 self.setFixedWidth(650)
                 self.setFont(Font)
                 self.setWindowTitle(" Saved Passwords ")
-                self.setWindowIcon(QIcon("D:\\AlgoTrading\\passwords_icon.png"))
+                self.setWindowIcon(QIcon("passwords_icon.png"))
 
             def user_interface(self):
 
