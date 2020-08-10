@@ -110,7 +110,7 @@ class MainWindow(QWidget):
 
                 try:
 
-                    data_file = open("C:\\Users\\Jay\\Desktop\\Password Generator\\Saved_Passwords.txt")
+                    data_file = open("Saved_Passwords.txt")
 
                 except:
 
@@ -140,7 +140,7 @@ class MainWindow(QWidget):
             else:
                 continue
 
-        password_file = open("C:\\Users\\Jay\\Desktop\\Password Generator\\Saved_Passwords.txt", "a")
+        password_file = open("Saved_Passwords.txt", "a")
         position = password_file.tell()
         password_file.seek(position, 0)
         password_file.write("\n")
